@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <!-- Background for Apple -->
+  <rect width="180" height="180" fill="#0a0a0a"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="vaultGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Vault door outer circle -->
+  <circle cx="90" cy="90" r="50" fill="url(#vaultGradient)" opacity="0.15"/>
+  <circle cx="90" cy="90" r="50" fill="none" stroke="url(#vaultGradient)" stroke-width="3"/>
+  
+  <!-- Vault door inner circle -->
+  <circle cx="90" cy="90" r="35" fill="none" stroke="url(#vaultGradient)" stroke-width="2"/>
+  
+  <!-- Vault handle/dial -->
+  <circle cx="90" cy="90" r="16" fill="url(#vaultGradient)"/>
+  <circle cx="90" cy="90" r="14" fill="#0a0a0a"/>
+  
+  <!-- Dial marks -->
+  <line x1="90" y1="74" x2="90" y2="80" stroke="url(#vaultGradient)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="106" y1="90" x2="100" y2="90" stroke="url(#vaultGradient)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="90" y1="106" x2="90" y2="100" stroke="url(#vaultGradient)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="74" y1="90" x2="80" y2="90" stroke="url(#vaultGradient)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Lock bolts -->
+  <circle cx="90" cy="45" r="3" fill="url(#vaultGradient)"/>
+  <circle cx="120" cy="65" r="3" fill="url(#vaultGradient)"/>
+  <circle cx="120" cy="115" r="3" fill="url(#vaultGradient)"/>
+  <circle cx="90" cy="135" r="3" fill="url(#vaultGradient)"/>
+  <circle cx="60" cy="115" r="3" fill="url(#vaultGradient)"/>
+  <circle cx="60" cy="65" r="3" fill="url(#vaultGradient)"/>
+</svg>
