@@ -123,9 +123,9 @@ export default function Signup() {
             />
             <label htmlFor="terms" className="ml-3 text-sm text-gray-400">
               I agree to the{' '}
-              <a href="#" className="text-primary-400 hover:text-primary-300 transition">
+              <Link to="/terms" className="text-primary-400 hover:text-primary-300 transition">
                 terms and conditions
-              </a>
+              </Link>
             </label>
           </div>
 

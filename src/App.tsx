@@ -5,6 +5,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 import { InstallPrompt } from './components/InstallPrompt'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import Terms from './pages/Terms'
 import Dashboard from './pages/Dashboard'
 import IncomeSetup from './pages/IncomeSetup'
 import RulesSetup from './pages/RulesSetup'
@@ -43,6 +44,7 @@ function App() {
           path="/signup" 
           element={user ? <Navigate to="/dashboard" replace /> : <Signup />} 
         />
+        <Route path="/terms" element={<Terms />} />
 
         {/* Onboarding routes */}
         <Route
